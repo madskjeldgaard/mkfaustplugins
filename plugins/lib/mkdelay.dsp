@@ -10,7 +10,7 @@ mkd = environment {
 	   parallel_comb_lpf(numDelays, order, maxdelay, delay, delayOffset, fb, lpf) = 
 		   par(delayNum, numDelays, delaySig(delayNum)) 
 			   with{
-				   delaySig(i) = comblpf(order, maxdelay * (i+1), delay * (i+1+delayOffset), fb, lpf);
+				   delaySig(i) = comblpf(order, maxdelay * (i+1), delay * (i+1+delayOffset), fb, lpf) : *(1.0/numDelays);
 			   };
 
 		// Same as above but with each comb panned in stereo
