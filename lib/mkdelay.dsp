@@ -1,5 +1,5 @@
 import("stdfaust.lib");
-import("../lib/mkfilters.dsp");
+import("../../lib/mkfilters.dsp");
 
 mkd = environment {
 	   // "Natural comb" - aka a comb filter with a onepole LPF in the feedback path
