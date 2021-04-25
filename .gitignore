@@ -1,2 +1,5 @@
 patches/*
 faust.*
+*.cpp
+*.sc
+*.so

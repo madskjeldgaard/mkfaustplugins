@@ -3,6 +3,7 @@ declare author "Mads Kjeldgaard";
 declare copyright "Mads Kjeldgaard";
 declare version "1.00";
 declare license "GPL";
+declare description "Parallel natural comb structure.";
 
 import("stdfaust.lib");
 import("../../lib/mkdelay.dsp");
