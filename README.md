@@ -11,4 +11,9 @@ Run make install to build and install the plugins:
 `m̀ake install`
 
 You may supply a an install prefix to install it to a specific location
-`PREFIX=a/path make install`
+`PREFIX=<path> make install`
+
+This is an example of what compiling and installing the plugins would look like on linux:
+``` 
+PREFIX=~/.local/share/SuperCollider/Extensions make install
+```
