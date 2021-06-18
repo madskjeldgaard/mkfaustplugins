@@ -1,5 +1,7 @@
 patches/*
 faust.*
+build/
+install/
 *.cpp
 *.sc
 *.so
