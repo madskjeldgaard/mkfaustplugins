@@ -8,6 +8,6 @@ scplugins:
 
 install: scplugins
 	echo "Installing Faust Plugins to $(PREFIX)"
-	mkdir -p $(PREFIX)
+	mkdir -p $(PREFIX)/MKFaustPlugins
 	cp -v -r plugins/*/* $(PREFIX)/MKFaustPlugins
 	rm -v -rf faust.*
